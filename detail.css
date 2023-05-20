@@ -1,0 +1,163 @@
+﻿.main {
+    width: auto;
+}
+
+.head img {
+    width: 1585px;
+    height: 100px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.topnav a:hover {
+    background-color: #fe0606;
+    color: white;
+}
+
+.topnav a.active {
+    background-color: #fe0606;
+    color: white;
+}
+
+.topnav .search-container {
+    float: right;
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.topnav .search-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+    background: #ccc;
+}
+
+.breadcumb-detail {
+    background-color: gainsboro;
+    height: 100%;
+    width: auto;
+}
+
+.breadcrumb {
+    grid-area: breadcrumb;
+}
+
+.breadcrumb ul {
+    padding: 10px 16px;
+    list-style: none;
+}
+
+.breadcrumb ul li {
+    display: inline;
+    font-size: 18px;
+}
+
+.breadcrumb ul li + li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+.breadcrumb ul li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+.breadcrumb ul li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+.detail{
+    height:100%;
+    margin-bottom:5%;
+    display:grid;
+    grid-template-columns:50% 50%;
+    grid-template-areas:
+        "detail-l detail-r";
+    border:1px solid black;
+    background-color:white;
+}
+
+.carousel-item img{
+    height:30rem;
+    width:100%;
+}
+
+.detail-l {
+    grid-area: detail-l;
+    padding-top:5px;
+}
+
+.detail-r {
+    grid-area: detail-r;
+    padding-top: 5px;
+}
+
+.checked {
+    color:yellow;
+}
+
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buy {
+    border-color: #2196F3;
+    color: dodgerblue
+}
+
+.buy:hover {
+    background: #2196F3;
+    color: white;
+}
+
+.add-cart {
+    border-color: red;
+    color: red;
+}
+
+.add-cart:hover {
+    background: red;
+    color: white;
+ }
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}
